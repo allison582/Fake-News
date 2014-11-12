@@ -50,17 +50,13 @@ table {
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-html {
-	
-}
-
-	   
+   
 body {
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: 5px;
+	margin-top: none;
 	text-align: center;
-	background: black;
+	background: white;
 	padding: 5px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	line-height: 1.6em;
@@ -70,9 +66,7 @@ em {
 	font-weight: bold;
 }
 		   
-q {
-	 background-color: #00EEEE;
-}
+
 	   
 P.blocktext {
 	margin-left: auto;
@@ -95,16 +89,45 @@ blockquote {
 	 margin: 30px 80px;
 
 }
-	   
+
+#newsarticles {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}	  
+/*
+#gonewrongpic {
+	padding-top: 340px;
+} 
+
+
+#ipadpic {
+	padding-top: 300px;
+}
+
+#marshpic {
+	padding-top: 500px;
+}
+
+#cometpic {
+	padding-top: 200px;
+}*/
+
 h1 {
-	padding: 10px 0;
-	font-size: 400%;
-	
+	padding: 0px 100px 20px 10px;
+	font-size: 700%;
 	color: orange;
-	
+	font-family: Britannic Bold, sans-serif;
+	background: black;
 
 }
-		   
+	
+.subheading {
+	font-style: italic;
+	padding-top: 5px;
+	padding-left: 10px;
+}	   
+
 h2,h3,h4,h5 {
 	line-height: 1.2em;
 	font-size: 1.8em;
@@ -113,12 +136,10 @@ h2,h3,h4,h5 {
 }
 		   
 a {
+	text-decoration: none;
 	
 }
-		   
-a:hover {
-	
-}
+
 
 #newsimages {
 	margin: 2px auto;
@@ -132,34 +153,102 @@ a:hover {
 	
 }
 
+article {
+	padding-bottom: 10px;
+	border-top: dotted orange;
+
+}
+
 #pagetitle {
 	position: fixed;
 	letter-spacing: 2px;
-	top: 48%;
-	left: 30%;
+	top: 55%;
+	left: 20%;
+
 }
 
-img {
+#articlesheading {
+	position: fixed;
+	width: 100%;
+	padding-top: 40px;
+	padding-right: auto;
+	text-align: left;
+	padding-bottom: 40px;
+	background-color: white;
+	z-index: 100;
+}
+
+.thestories {
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+.rightpics {
+	width: 400px;
+	height: auto;
+	float: right;
+	padding-left: 100px;
+}
+/*
+#gowrongstory {
+	background-image: url(img/gonewrong.jpg);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#ipadstory {
+
+	padding-right: 200px;
+	background-image: url(img/ipad.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#mnlakesstory {
+	background-image: url(img/marsh.jpg);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#cometstory {
+	background-image: url(img/comet.jpg);
+	background-repeat: no-repeat;
+	background-position: center right;
+}*/
+
+ol {
+	margin-left: 40px;
+	list-style-type: disc;
+}
+/*
+.col-1-4 {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+}*/
+
+#newsimages img {
 	height: 100%;
 	width: 100%;
 	
 }
-
-#basslake {
-	border: 5px solid orange;
-	margin: 10px auto;
-	width: 750px;
-	border-collapse: collapse;
+ q {
+    display: inline;
 }
 
-#basslake th, #basslake td {
-	width: 20%;
-	border: 1px dashed white;
-	text-align: center;
+q:before {
+    content: "\201c";
 }
 
-#basslake caption {
-	font-size: 2em;
+q:after {
+    content: "\201d";
 }
+
 
 	
