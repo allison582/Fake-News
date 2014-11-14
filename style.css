@@ -54,7 +54,6 @@ table {
 body {
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: none;
 	text-align: center;
 	background: white;
 	padding: 5px;
@@ -156,7 +155,6 @@ a 	{
 	position: fixed;
 	width: 100%;
 	padding-top: 40px;
-	padding-right: auto;
 	text-align: left;
 	padding-bottom: 40px;
 	background-color: white;
@@ -183,7 +181,6 @@ a 	{
 	float: left;
 	height: 200px;
 	width: 400px;
-	padding: none;
 	margin-bottom: 90px;
 }
 
